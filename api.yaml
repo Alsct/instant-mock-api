@@ -1,0 +1,17 @@
+# api.yaml
+endpoints:
+  - path: /users
+    method: GET
+    response:
+      - id: 1
+        name: "Alice"
+        role: "Admin"
+      - id: 2
+        name: "Bob"
+        role: "User"
+  - path: /products/42
+    method: GET
+    response:
+      id: 42
+      name: "Super Widget"
+      price: 99.99
