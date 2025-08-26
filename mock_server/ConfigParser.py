@@ -1,4 +1,5 @@
-import yaml, EndPoint
+import yaml
+from .EndPoint import *
 
 class ConfigParser:
 
@@ -14,6 +15,3 @@ class ConfigParser:
             self.endpoints.append(EndPoint(endpoint))
 
 
-parser = ConfigParser('api.yaml')
-parser.parse()
-print(parser.endpoints[0])

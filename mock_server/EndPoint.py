@@ -10,3 +10,6 @@ class EndPoint:
 
     def __repr__(self):
         return f"Endpoint(path='{self.path}', method='{self.method}', response={self.response})"
+    
+    async def get_response(self):
+        return self.response
