@@ -1,6 +1,6 @@
 # Instant Mock API
 
-A simple FastAPI-based mock server for quickly prototyping and testing API endpoints.
+Instant Mock API: This initial prototype provides a lightweight, config-driven server powered by FastAPI, designed to accelerate development and testing.
 
 ## Getting Started
 
